@@ -7,8 +7,8 @@ import {
   UIManager,
   View,
 } from 'react-native';
-import Header from './components/Header';
-import List from './components/List';
+import Header from './src/components/Header';
+import List from './src/components/List';
 
 if (
   Platform.OS === 'android' &&
