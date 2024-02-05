@@ -1,4 +1,6 @@
 Final Output
+<video src='./images//video.mov' controls autoplay>
+
 <img src='./images/final-output.png' width=300>
 
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
