@@ -53,6 +53,9 @@ const List = () => {
           renderItem={({item}) => {
             return <ListItem stock={item} />;
           }}
+          keyExtractor={item => {
+            return item.symbol;
+          }}
         />
       </View>
       <View style={styles.details}>
