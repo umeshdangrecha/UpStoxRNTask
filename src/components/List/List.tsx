@@ -25,7 +25,7 @@ const List = () => {
       duration: 1000,
       create: {type: 'linear', property: 'opacity', duration: 500},
       update: {type: 'spring', springDamping: 0.4},
-      delete: {type: 'linear', property: 'opacity', duration: 500},
+      delete: {type: 'linear', property: 'opacity', duration: 100},
     });
     setShowDetails(prev => !prev);
   }, []);
